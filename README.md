@@ -1,6 +1,3 @@
-# manual 
-
----
 
 # **Cómo Crear un Repositorio en GitHub**
 
@@ -16,7 +13,7 @@
 ## 1. Crear un repositorio en GitHub
 
 1. Entra en tu cuenta de GitHub.
-2. En la esquina superior derecha, haz clic en el icono de **+** y selecciona **New repository** (Nuevo repositorio).
+2. En la esquina superior derecha, haz clic en el icono de **+** y selecciona **New repository**.
 
 3. Completa los campos de la siguiente manera:
    - **Repository name** (Nombre del repositorio): Ponle el nombre que quieras a tu repositorio.
@@ -133,5 +130,5 @@ Esto descargará el repositorio en tu computadora.
    ```bash
    git pull
    ```
-[Información documentada](https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories)
----
+
+[Informacíon basada](https://github.com/davidgchaves/primeros-pasos-con-git-y-github?tab=readme-ov-file#6-receta-4-crear-un-repositorio-github-y-asociarlo-al-repositorio-local)
