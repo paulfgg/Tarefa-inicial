@@ -29,15 +29,9 @@
 
 ## 2. Subir archivos a tu repositorio
 
-### Opción 1: Directamente desde GitHub
+#
 
-1. Una vez que hayas creado el repositorio, haz clic en **Add file**.
-2. Luego selecciona **Upload files**.
-3. Arrastra los archivos que quieras subir o selecciona los archivos desde tu pc.
-4. Escribe un mensaje en **Commit message** (es una pequeña descripción de los archivos que estás subiendo).
-5. Haz clic en **Commit changes** para guardar los archivos en el repositorio.
-
-### Opción 2: Usando Git en tu pc
+### Usando Git en tu pc
 
 1. En la página de tu repositorio en GitHub, haz clic en el botón **Code**.
 2. Copia la URL del repositorio.
@@ -65,7 +59,7 @@
 6. Crea un commit con un mensaje para describir los cambios:
 
    ```bash
-   git commit -m "Descripción breve de los cambios"
+   git commit 
    ```
 
 7. Sube los archivos a GitHub:
@@ -74,25 +68,10 @@
    git push origin main
    ```
 
----
-
-## 4. Trabajar con ramas y pull requests
-
-### Crear una nueva rama (branch)
-
-1. En la página de tu repositorio en GitHub, en la parte superior donde dice **main**, haz clic y escribe el nombre de la nueva rama (ej. "nueva-rama").
-2. Pulsa **Enter** y ya tendrás tu rama nueva.
-
-### Hacer un Pull Request
-
-1. Si has hecho cambios en una rama y quieres que pasen a la rama principal (main), abre un **pull request**.
-2. Ve a la pestaña **Pull requests** en la página de tu repositorio.
-3. Haz clic en **New pull request**.
-4. Describe qué cambios has hecho y haz clic en **Create pull request**.
 
 ---
 
-## 5. Clonar un repositorio de GitHub
+## 4. Clonar un repositorio de GitHub
 
 1. Copia la URL del repositorio de GitHub que quieres clonar.
 2. Abre la terminal y escribe:
@@ -101,7 +80,7 @@
    git clone https://github.com/usuario/nombre-del-repositorio.git
    ```
 
-Esto descargará el repositorio en tu computadora.
+Esto descargará el repositorio en tu pc.
 
 ---
 
@@ -116,7 +95,7 @@ Esto descargará el repositorio en tu computadora.
 - **Hacer un commit** **(guardarlo con una descripción)**:
 
    ```bash
-   git commit -m "Descripción del cambio"
+   git commit
    ```
 
 - **Subir los cambios a GitHub**:
